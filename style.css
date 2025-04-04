@@ -304,6 +304,11 @@ text-align: center;
     .main-video{
         margin-top:10%;
     }
+
+    video{
+        padding-bottom: 10%;
+        object-fit:cover;
+    }
     .aboutme-container{
         text-align: center;
         margin-top: 20%;
@@ -343,11 +348,15 @@ text-align: center;
         color: black;
     }
 
+    .intrests{
+        width: 90%;
+    }
+
     .intrests li {
         margin-bottom: 3%;
-        justify-content: center;
         padding: 5%;
-        border-radius: 20px;
+       margin-left: -7%;
+       
     }
     
     .contact{
